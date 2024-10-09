@@ -83,8 +83,8 @@ img {
     border-radius: 5px;
 }
 .about-image {
-    width: 100%;
-    max-width: 600px;
+    width: 50%;
+    max-width: 30px;
     height: auto;
     margin-top: 20px;
     border-radius: 10px;
