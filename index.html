@@ -1,67 +1,84 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="styl.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armada.cz - Informace o armádách světa</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<header>
-		<h1>armadni-vybaveni.cz</h1>
-	</header>
-	<nav>
-        <ul>
-            <li><a href="#usa">USA</a></li>
-            <li><a href="#russia">Rusko</a></li>
-            <li><a href="#china">Čína</a></li>
-            <li><a href="#germany">Německo</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <section id="usa" class="country-section">
-            <h2>USA</h2>
-            <p>USA má jednu z nejsilnějších armád světa. Mezi jejich nejvýznamnější vybavení patří:</p>
+    <header>
+        <h1>Armada.cz</h1>
+        <p>Oficiální stránky a informace o armádách jednotlivých zemí</p>
+        <nav>
             <ul>
-                <li>Tanky M1 Abrams</li>
-                <li>Stíhačky F-35 Lightning II</li>
-                <li>Útočné pušky M4</li>
+                <li><a href="https://www.bundeswehr.de" target="_blank">Německo</a></li>
+                <li><a href="https://www.defense.gouv.fr" target="_blank">Francie</a></li>
+                <li><a href="https://www.army.mil" target="_blank">Spojené státy</a></li>
+                <li><a href="https://www.mod.go.jp" target="_blank">Japonsko</a></li>
             </ul>
-        </section>
+        </nav>
+    </header>
 
-        <section id="russia" class="country-section">
-            <h2>Rusko</h2>
-            <p>Ruská armáda je známá svým silným vybavením:</p>
-            <ul>
-                <li>Tanky T-14 Armata</li>
-                <li>Stíhačky Su-57</li>
-                <li>Útočné pušky AK-12</li>
-            </ul>
-        </section>
+    <section id="about">
+        <h2>O stránce</h2>
+        <p>Tato stránka je věnovaná armádám různých zemí světa. Zde můžete najít informace o jejich personálu, speciálních jednotkách a arzenálu. Kliknutím na odkazy výše se dostanete na oficiální stránky armád jednotlivých zemí.</p>
+    </section>
 
-        <section id="china" class="country-section">
-            <h2>Čína</h2>
-            <p>Čínská armáda se rychle modernizuje a rozšiřuje své kapacity:</p>
-            <ul>
-                <li>Tanky Type 99</li>
-                <li>Stíhačky J-20</li>
-                <li>Útočné pušky QBZ-95</li>
-            </ul>
-        </section>
+    <section id="news">
+        <h2>Novinky ze světa armády</h2>
+        <article>
+            <h3>Konflikt na Blízkém východě</h3>
+            <p>Datum: 5. října 2024</p>
+            <p>Místo: Sýrie</p>
+            <p>Napětí v Sýrii opět roste s novým útokem na severovýchodní hranice.</p>
+            <a href="https://news.example.com/syria-conflict" target="_blank">Více informací</a>
+        </article>
 
-        <section id="germany" class="country-section">
-            <h2>Německo</h2>
-            <p>Německá armáda se specializuje na moderní evropské vybavení:</p>
-            <ul>
-                <li>Tanky Leopard 2</li>
-                <li>Stíhačky Eurofighter Typhoon</li>
-                <li>Útočné pušky G36</li>
-            </ul>
-        </section>
-    </main>
+        <article>
+            <h3>Napětí mezi Indií a Pákistánem</h3>
+            <p>Datum: 3. října 2024</p>
+            <p>Místo: Kašmír</p>
+            <p>Armádní střety mezi Indií a Pákistánem pokračují v oblasti Kašmíru.</p>
+            <a href="https://news.example.com/india-pakistan" target="_blank">Více informací</a>
+        </article>
 
+        <article>
+            <h3>Rozšíření ruského vojenského arzenálu</h3>
+            <p>Datum: 1. října 2024</p>
+            <p>Místo: Rusko</p>
+            <p>Rusko oznámilo výrazné navýšení svého arzenálu tanků a raketových systémů.</p>
+            <a href="https://news.example.com/russia-army-expansion" target="_blank">Více informací</a>
+        </article>
 
+        <!-- Můžeš přidat více novinek zde -->
+    </section>
+
+    <section id="armies">
+        <h2>Informace o armádách zemí</h2>
+        <article>
+            <h3>Armáda Německa</h3>
+            <p><strong>Personál:</strong> 180 000 aktivních vojáků</p>
+            <p><strong>Speciální jednotky:</strong> KSK (Kommando Spezialkräfte)</p>
+            <p><strong>Arzenál:</strong> Leopard 2 tanky, Eurofighter Typhoon stíhačky, fregaty třídy Sachsen</p>
+            <p><strong>Obrázky:</strong></p>
+            <img src="obrazky/nemecko_armada.jpg" alt="Německá armáda" width="300">
+        </article>
+
+        <article>
+            <h3>Armáda Francie</h3>
+            <p><strong>Personál:</strong> 210 000 aktivních vojáků</p>
+            <p><strong>Speciální jednotky:</strong> GIGN, Commandos Marine</p>
+            <p><strong>Arzenál:</strong> Leclerc tanky, Dassault Rafale stíhačky, ponorky třídy Triomphant</p>
+            <p><strong>Obrázky:</strong></p>
+            <img src="obrazky/francie_armada.jpg" alt="Francouzská armáda" width="300">
+        </article>
+
+        <!-- Můžeš přidat více zemí zde -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Armada.cz - Všechna práva vyhrazena.</p>
+    </footer>
 </body>
-</html>
 </html>
