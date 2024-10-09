@@ -78,16 +78,6 @@ footer {
     width: 100%;
 }
 
-img {
-    margin-top: 10px;
-    border-radius: 5px;
-    width: 50%;
-    max-width: 30px;
-    height: auto;
-    margin-top: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 .about-image {
     width: 50%; 
     max-width: 300px; 
