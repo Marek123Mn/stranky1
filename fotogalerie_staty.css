@@ -19,6 +19,16 @@ nav a {
     margin: 0 15px;
 }
 
+footer {
+    background-color: #4B5320;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
 .gallery {
     display: flex;
     flex-wrap: wrap; /* Umožní obrázkům přecházet do dalšího řádku */
