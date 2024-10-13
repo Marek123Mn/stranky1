@@ -9,16 +9,31 @@ header {
   background-color: #4B5320;
   color: white;
   padding: 20px;
-  text-align: center;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: center; /* Vertikální zarovnání */
+  justify-content: space-between; /* Logo vlevo, odkazy vpravo */
 }
 
 .header-logo {
-  width: 100px; 
-  height: auto; 
-  margin-right: 20px; 
+  width: 100px; /* Zmenšíme logo */
+  height: auto; /* Zachová správný poměr stran */
+  margin-right: 20px; /* Mezera mezi logem a textem */
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column; /* Pro vertikální zarovnání textu */
+  justify-content: center;
+}
+
+nav {
+  margin-left: auto; /* Posune navigaci doprava */
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
 }
 
 
