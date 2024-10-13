@@ -5,13 +5,14 @@ body {
     margin: 0;
     padding: 0;
 }
+
 header {
   background-color: #4B5320;
   color: white;
   padding: 20px;
   display: flex;
   align-items: center; /* Vertikální zarovnání */
-  justify-content: space-between; /* Logo vlevo, odkazy vpravo */
+  justify-content: flex-start; /* Logo a text vlevo, navigace doprava */
 }
 
 .header-logo {
@@ -21,29 +22,32 @@ header {
 }
 
 .header-text {
-  display: flex;
-  flex-direction: column; /* Pro vertikální zarovnání textu */
-  justify-content: center;
+  flex-grow: 1; /* Zabere co nejvíce místa vedle loga */
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.header-text p {
+  margin: 0;
+  font-size: 14px;
 }
 
 nav {
-  margin-left: auto; /* Posune navigaci doprava */
+  display: flex;
+  align-items: center;
 }
-
-nav a {
-  margin: 0 10px;
-  color: white;
-  text-decoration: none;
-}
-
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
+    display: flex;
 }
 
 nav ul li {
-    display: inline;
     margin: 0 15px;
 }
 
@@ -97,6 +101,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 .about-image {
     width: 50%; 
     max-width: 300px;
@@ -105,6 +110,7 @@ footer {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .about-image-logo {
   width: 100px; 
   height: auto;
