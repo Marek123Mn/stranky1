@@ -21,9 +21,7 @@ header {
   margin-right: 20px; 
 }
 
-header h1, header p {
-  margin: 0 auto; 
-}
+
 nav ul {
     list-style-type: none;
     padding: 0;
