@@ -15,12 +15,9 @@ header {
     grid-column-template: 1fr 2fr 1fr;
     grid-row-template: 1fr;
 }
-.mddiamondjebest {
+.{
     grid-column: 2;
     grid-row: 1;
-}
-.mddiamondjebesttext {
-    
 }
 
 header h1 {
