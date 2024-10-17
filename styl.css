@@ -11,6 +11,9 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    display: grid;
+    grid-column-template: 1fr 2fr 1fr;
+    grid-row-template: 1fr;
 }
 
 header h1 {
