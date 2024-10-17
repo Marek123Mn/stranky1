@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background:	#4B5320;
+    background:	#365532;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -20,7 +20,7 @@ nav a {
 }
 
 footer {
-    background-color: #4B5320;
+    background-color: #365532;
     color: white;
     text-align: center;
     padding: 10px;
@@ -31,23 +31,22 @@ footer {
 
 .gallery {
     display: flex;
-    flex-wrap: wrap; /* Umožní obrázkům přecházet do dalšího řádku */
-    justify-content: center; /* Zarovnání do středu */
+    flex-wrap: wrap; 
+    justify-content: center;
     padding: 20px;
 }
 
 .gallery-item {
-    margin: 10px; /* Mezery mezi položkami */
-    text-align: center; /* Text (popis) bude zarovnán na střed */
-}
+    margin: 10px;
+    text-align: center;
 
 .gallery-image {
-    width: 200px; /* Šířka obrázků, můžeš upravit podle potřeby */
-    height: auto; /* Udržuje poměr stran */
-    border-radius: 10px; /* Zaoblení rohů obrázků */
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
 }
 
 .gallery-caption {
-    margin-top: 5px; /* Mezera mezi obrázkem a popisem */
-    font-size: 14px; /* Velikost písma popisu */
+    margin-top: 5px;
+    font-size: 14px;
 }
