@@ -102,7 +102,7 @@ img {
     height: auto;  
 }
 .about-image-logo {
-  width: 100%; 
+  width: 40%; 
   height: auto;
   margin-left: 100px;
   grid-column: 1;
