@@ -15,7 +15,7 @@ header {
     grid-column-template: 1fr 2fr 1fr;
     grid-row-template: 1fr;
 }
-.{
+.text-grid{
     grid-column: 2;
     grid-row: 1;
 }
@@ -97,9 +97,10 @@ img {
     height: auto;  
 }
 .about-image-logo {
-  width: 200px; 
+  width: 100%; 
   height: auto;
-  display: block;
   margin-left: 100px;
+  grid-column: 1;
+  grid-row: 1;
 }
 
