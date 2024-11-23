@@ -1,3 +1,6 @@
+Rozumím, vytvořím CSS kód, který bude měnit pouze styl obrázků v tabulce, aniž by ovlivňoval zbytek tvých stylů. Nahraď tedy svůj starý CSS soubor následujícím kódem:
+
+```css
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -74,6 +77,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 .gallery {
     display: flex;
     flex-wrap: wrap; 
@@ -96,3 +100,32 @@ footer {
     margin-top: 5px;
     font-size: 14px;
 }
+
+/* Upravené styly pro obrázky v tabulce */
+.army-table .gallery-image {
+    width: 150px; /* Nastavení šířky obrázku */
+    height: auto; /* Automatická výška pro zachování poměru stran */
+    max-height: 100px; /* Maximální výška obrázku */
+    border-radius: 10px;
+}
+
+/* Středění obrázků a textu uvnitř buňky */
+.army-table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.army-table .gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.army-table .gallery-caption {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #555;
+}
+```
+
+Tento kód ponechává všechny původní styly beze změny a pouze přidává nové styly pro obrázky v tabulce. Stačí nahradit celý obsah tvého CSS souboru tímto kódem a změny by se měly projevit pouze na obrázcích v tabulce.
