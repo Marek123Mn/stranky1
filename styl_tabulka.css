@@ -74,3 +74,25 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.gallery {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.gallery-image {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.gallery-caption {
+    margin-top: 5px;
+    font-size: 14px;
+}
